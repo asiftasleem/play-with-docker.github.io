@@ -100,7 +100,7 @@ s/examplevotingapp_worker:latest
 Let's list the tasks of the vote service.
 
 ```.term1
-docker service ps voting_stack_vote
+docker service ps voting_stage_vote
 ```
 
 You should get an output like the following one where the 2 tasks (replicas) of the service are listed.
